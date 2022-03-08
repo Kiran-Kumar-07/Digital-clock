@@ -18,9 +18,9 @@ public class DigitalClock extends JFrame {
       jlabClock = new JLabel("");
       setLayout(new FlowLayout());
       setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-      jlabClock.setFont(new Font("Algerian",Font.CENTER_BASELINE,80));
+      jlabClock.setFont(new Font("Times new Roman",Font.CENTER_BASELINE,80));
       jlabClock.setOpaque(true);
-      jlabClock.setBackground(Color.MAGENTA);
+      jlabClock.setBackground(Color.black);
       jlabClock.setForeground(Color.WHITE);
       add(jlabClock);
       setSize(1200,120);
