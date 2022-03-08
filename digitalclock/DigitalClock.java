@@ -21,7 +21,7 @@ public class DigitalClock extends JFrame {
       jlabClock.setFont(new Font("Times new Roman",Font.CENTER_BASELINE,80));
       jlabClock.setOpaque(true);
       jlabClock.setBackground(Color.black);
-      jlabClock.setForeground(Color.WHITE);
+      jlabClock.setForeground(Color.white);
       add(jlabClock);
       setSize(1200,120);
       setLocationRelativeTo(null);
